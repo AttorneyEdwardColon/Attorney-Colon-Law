@@ -90,13 +90,6 @@ background-size: 200% auto;
 animation: shimmer 1.5s linear infinite;
 }
 
-.practice-section {
-  background-image: url("images/practice-bg.jpg");
-  background-size: cover;
-  background-position: center;
-padding: 30px 20px;
-}
-
 .practice-grid {
 display: grid;
   grid-template-columns: repeat(4, 1fr); /* Force 4 columns */
