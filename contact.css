@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Merriweather', serif;
-background-image: url('../images/about-bg.jpg');
+  background-image: url('https://eddycolonlaw.github.io/EddyColonLaw/contact-bg.jpg');
   filter: brightness(70%) contrast(100%);
   background-size: cover;
   background-position: center;
