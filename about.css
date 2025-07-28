@@ -1,0 +1,310 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-image: url('../images/about-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* HEADER, LOGO, NAVIGATION */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to bottom, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0));
+  z-index: 1;
+}
+
+.logo {
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFD700;
+  margin-right: 2rem;
+  margin-top: -6px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.quote-block {
+  text-align: center;
+  margin-top: 1rem;
+  padding-right: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #FFD700;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  line-height: 40px;
+}
+
+.nav-links a:hover {
+  color: #800020;
+}
+
+.nav-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #FFD700;
+  position: relative;
+  top: -1px;
+  left: 1.5px;
+}
+
+.header-quote {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.hero-divider {
+  height: 2px;
+  background: linear-gradient(to right, #800020, #FFD700, #800020);
+  margin: 1rem auto;
+  margin-bottom: 4rem;
+  width: 40%;
+  background-size: 200% auto;
+  animation: shimmer 1.5s linear infinite;
+}
+
+.about-icon-wrapper {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.about-icon {
+  width: 90%;            /* Increase width for more impact */
+  max-width: 700px;      /* Optional: cap it for large screens */
+  max-height: 350px;     /* Slightly taller if needed */
+  display: block;
+  margin: 0 auto 3rem auto;
+  opacity: 0.95;
+  background-color: rgba(128, 0, 32, 0.2); /* Transparent deep red */
+  border: 6px solid;
+  border-image: linear-gradient(to bottom, rgba(150, 111, 51, 0.4), rgba(255, 215, 0, 0.6)) 1;
+  border-radius: 8px; /* Slightly rounded corners; use 0 for sharp edges */
+  width: 600px;        /* Adjust width */
+  height: 400px;        /* Adjust height */
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+/* About Content */
+.about-container {
+  background: url('courtroom.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  width: 50%;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.about-intro {
+  font-size: 1.75rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #FFD700;
+  text-shadow: 2px 1px 3px #2c0000;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0));
+  border-bottom: 4px solid rgba(128, 0, 32, 0.3);
+  border-right: 4px solid rgba(128, 0, 32, 0.3);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 1rem 20rem;
+}
+
+
+.about-intro::after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 0.75rem 1.9rem 0 0;
+  background: linear-gradient(to right, #800020, #FFD700, #800020);
+  background-size: 200% auto;
+  animation: shimmer 1.5s linear infinite;
+  background-position: 0% center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.about-details {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0));
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.6;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto 1rem auto;
+  animation: fadeInUp 0.8s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+  text-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.85),
+    0 0 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid rgba(128, 0, 32, 0.3);
+  border-right: 4px solid rgba(128, 0, 32, 0.3);
+}
+
+.about-details:nth-of-type(1) {
+  animation-delay: 0.3s;
+}
+.about-details:nth-of-type(2) {
+  animation-delay: 0.6s;
+}
+.about-details:nth-of-type(3) {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+
+
+
+/*MEDIA*/
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .nav-wrapper {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .quote-block {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .header-quote {
+    font-size: 1.2rem;
+  }
+
+  .about-icon{
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 2rem auto;
+  }
+
+.about-intro {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #FFD700;
+  text-shadow: 2px 1px 3px #2c0000;
+  margin: 1rem 1rem 1rem 0.5rem; /* pushes it slightly left */
+  text-align: center;
+  max-width: 90vw;
+  width: 90%;
+  position: relative;
+  background: linear-gradient(to bottom, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0));
+  border-bottom: 4px solid rgba(128, 0, 32, 0.3);
+  border-right: 4px solid rgba(128, 0, 32, 0.3);
+}
+
+.about-intro::after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 0.75rem auto 0 0.5rem;
+  background: linear-gradient(to right, #800020, #FFD700, #800020);
+  background-size: 200% auto;
+  animation: shimmer 1.5s linear infinite;
+  background-position: 0% center;
+  width: 80%;
+  max-width: 250px;
+}
+
+  .about-details {
+  width: 85%;
+  max-width: 280px;
+  margin: 1rem 1rem 1rem 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgba(255, 215, 0, 0.1), rgba(255, 255, 255, 0.05));
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.6;
+  text-align: center;
+  text-shadow:
+    2px 2px 6px rgba(0, 0, 0, 0.85),
+    0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+}
+
+
+
