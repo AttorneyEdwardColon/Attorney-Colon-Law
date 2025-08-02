@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://attorneyedwardcolon.github.io/Attorney-Colon-Law/sitemap.xml
