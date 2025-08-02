@@ -1,6 +1,6 @@
 body {
 font-family: 'Merriweather', serif;
- background-image: url('https://eddycolonlaw.github.io/EddyColonLaw/practice-bg.jpg');
+background-image: url('https://eddycolonlaw.github.io/EddyColonLaw/practice-bg.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -424,5 +424,6 @@ margin-bottom: 18px;
     border-radius: 6px;
   }
 }
+
 
 
