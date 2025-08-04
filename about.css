@@ -1,6 +1,6 @@
 body {
   font-family: 'Merriweather', serif;
- background-image: url('about-bg.jpg');
+  background-image: url('about-bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -305,6 +305,7 @@ body {
 }
 
 }
+
 
 
 
