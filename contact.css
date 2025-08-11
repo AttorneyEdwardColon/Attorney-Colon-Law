@@ -180,7 +180,7 @@ body {
 /* CONTACT FORM */
 .contact-form {
   position: fixed;
-  bottom: 160px;
+  bottom: 200px;
   left: 10px;
   width: 300px;
   padding: 10px;
@@ -250,7 +250,7 @@ body {
 /* MAP CIRCLE */
 .map-circle {
   position: fixed;
-  bottom: 220px;
+  bottom: 200px;
   right: 10px;
   width: 420px;
   height: 420px;
@@ -279,6 +279,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
