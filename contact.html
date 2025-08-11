@@ -113,21 +113,31 @@
 ></iframe>
 </div>
 
-  <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
+  <form action="https://formspree.io/f/manbvwpo" method="POST">
+  <label for="name">Your Name:</label>
+  <input type="text" name="name" id="name" required>
 
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
+  <label for="email">Your Email:</label>
+  <input type="email" name="email" id="email" required>
 
-  <label for="phone">Phone:</label>
-  <input type="tel" id="phone" name="phone">
+  <label for="phone">Phone Number:</label>
+  <input type="tel" name="phone" id="phone">
 
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" rows="5" required></textarea>
+  <label for="message">Your Message:</label>
+  <textarea name="message" id="message" required></textarea>
 
-  <button type="submit">Send Message</button>
+  <!-- Optional: Redirect to thank-you page -->
+  <input type="hidden" name="_redirect" value="https://attorneycolon.com/thank-you.html">
+
+  <!-- Optional: Custom subject line -->
+  <input type="hidden" name="_subject" value="New Contact Request from AttorneyColon.com">
+
+  <!-- Optional: Spam protection -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit">Send</button>
 </form>
+
 
 
 <section class="contact-wrapper">
@@ -145,6 +155,7 @@
 <div class="horizontal-divider"></div>
 </body>
 </html>
+
 
 
 
