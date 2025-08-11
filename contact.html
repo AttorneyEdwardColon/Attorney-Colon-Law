@@ -115,33 +115,53 @@
 ></iframe>
 </div>
 
-  <div class="contact-form fade-in">
-  <h2 style="color:#FFD700;">Let’s Connect</h2>
-  <p style="color:#FFD700; font-size:14px;">Begin your path to resolution—reach out today.</p>
+ <form id="contact-form" action="https://formspree.io/f/manbvwpo" method="POST">
+  <label for="name">Your Name:</label>
+  <input type="text" name="name" id="name" required autocomplete="name">
 
-    <form action="https://formspree.io/f/manbvwpo" method="POST">
-    <label for="name">Your Name:</label>
-    <input type="text" name="name" id="name" required autocomplete="name">
+  <label for="email">Your Email:</label>
+  <input type="email" name="email" id="email" required autocomplete="email">
 
-    <label for="email">Your Email:</label>
-    <input type="email" name="email" id="email" required autocomplete="email">
+  <label for="phone">Phone Number:</label>
+  <input type="tel" name="phone" id="phone" autocomplete="tel">
 
-    <label for="phone">Phone Number:</label>
-    <input type="tel" name="phone" id="phone" autocomplete="tel">
+  <label for="message">Your Message:</label>
+  <textarea name="message" id="message" required></textarea>
 
-    <label for="message">Your Message:</label>
-    <textarea name="message" id="message" required></textarea>
+  <input type="hidden" name="_subject" value="New Contact Request from AttorneyColon.com">
+  <input type="text" name="_gotcha" style="display:none">
+  <input type="hidden" name="_captcha" value="false">
 
-    <input type="hidden" name="_redirect" value="https://attorneycolon.com/thank-you.html">
-    <input type="hidden" name="_subject" value="New Contact Request from AttorneyColon.com">
-    <input type="text" name="_gotcha" style="display:none">
+  <button type="submit" aria-label="Send your message">Send</button>
+</form>
 
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://www.attorneycolon.com/thank-you.html">
-
-    <button type="submit" aria-label="Send your message">Send</button>
-  </form>
+<div id="thank-you" style="display:none;" class="thank-you-message">
+  ✅ Message sent successfully. We appreciate your trust—expect a thoughtful response soon.
 </div>
+
+<script>
+  const form = document.getElementById('contact-form');
+  const thankYou = document.getElementById('thank-you');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        form.reset();
+        thankYou.style.display = 'block';
+      } else {
+        alert('Oops! Something went wrong. Please try again.');
+      }
+    });
+  });
+</script>
 
 
 
@@ -160,6 +180,7 @@
 <div class="horizontal-divider"></div>
 </body>
 </html>
+
 
 
 
