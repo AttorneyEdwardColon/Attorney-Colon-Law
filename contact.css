@@ -180,7 +180,7 @@ body {
 /* CONTACT FORM */
 .contact-form {
   position: fixed;
-  bottom: 160px;
+  bottom: 170px;
   left: 10px;
   width: 260px;
   padding: 14px 16px;
@@ -221,7 +221,7 @@ body {
 }
 
 .contact-form textarea {
-  height: 40px;
+  height: 35px;
   resize: vertical;
 }
 
@@ -308,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
