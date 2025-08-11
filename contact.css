@@ -182,7 +182,7 @@ body {
   position: fixed;
   bottom: 180px;
   left: 10px;
-  width: 300px;
+  width: 260px;
   padding: 10px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -193,7 +193,9 @@ body {
   color: #FFD700;
   font-weight: bold;
   z-index: 999;
-  display: block; /* Ensures vertical stacking */
+   display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adds spacing between fields */
 }
 
 .contact-form label {
@@ -306,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
