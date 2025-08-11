@@ -196,8 +196,6 @@ body {
   display: block; /* Ensures vertical stacking */
 }
 
-}
-
 .contact-form label {
   display: block;
   margin-bottom: 6px;
@@ -308,6 +306,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
