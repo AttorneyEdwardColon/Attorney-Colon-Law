@@ -197,7 +197,7 @@ body {
 
 .contact-form label {
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
   font-size: 13px;
   color: #FFD700;
   font-weight: bold;
@@ -205,16 +205,15 @@ body {
 
 .contact-form input,
 .contact-form textarea {
+  display: block;
   width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  padding: 6px 10px;
-  margin-bottom: 8px;
+  padding: 8px 10px;
+  margin-bottom: 14px;
   background: rgba(47, 25, 15, 0.9);
   border: 1px solid #CD7F32;
   border-radius: 6px;
   color: #FFD700;
-  font-size: 12px;
+  font-size: 13px;
   box-shadow: inset 0 0 3px rgba(255, 215, 0, 0.2);
 }
 
@@ -306,6 +305,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
