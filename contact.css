@@ -112,7 +112,7 @@ body {
 .contact-fixed {
   position: relative;
   margin-top: 31rem;
-  bottom: 15px;
+  bottom: 20px;
   left: 0;
   right: 0;
   display: flex;
@@ -308,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
