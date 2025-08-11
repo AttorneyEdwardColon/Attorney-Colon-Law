@@ -115,32 +115,30 @@
 ></iframe>
 </div>
 
-  <div class="contact-form">
-   <form action="https://formspree.io/f/manbvwpo" method="POST">
-  <label for="name">Your Name:</label>
-  <input type="text" name="name" id="name" required>
+  <div class="contact-form fade-in">
+  <h2 style="color:#FFD700;">Let’s Connect</h2>
+  <p style="color:#FFD700; font-size:14px;">Begin your path to resolution—reach out today.</p>
 
-  <label for="email">Your Email:</label>
-  <input type="email" name="email" id="email" required>
+  <form action="https://formspree.io/f/manbvwpo" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" name="name" id="name" required autocomplete="name">
 
-  <label for="phone">Phone Number:</label>
-  <input type="tel" name="phone" id="phone">
+    <label for="email">Your Email:</label>
+    <input type="email" name="email" id="email" required autocomplete="email">
 
-  <label for="message">Your Message:</label>
-  <textarea name="message" id="message" required></textarea>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" name="phone" id="phone" autocomplete="tel">
 
-  <!-- Optional: Redirect to thank-you page -->
-  <input type="hidden" name="_redirect" value="https://attorneycolon.com/thank-you.html">
+    <label for="message">Your Message:</label>
+    <textarea name="message" id="message" required></textarea>
 
-  <!-- Optional: Custom subject line -->
-  <input type="hidden" name="_subject" value="New Contact Request from AttorneyColon.com">
+    <input type="hidden" name="_redirect" value="https://attorneycolon.com/thank-you.html">
+    <input type="hidden" name="_subject" value="New Contact Request from AttorneyColon.com">
+    <input type="text" name="_gotcha" style="display:none">
 
-  <!-- Optional: Spam protection -->
-  <input type="text" name="_gotcha" style="display:none">
-
-  <button type="submit">Send</button>
-</form>
-  </div>
+    <button type="submit" aria-label="Send your message">Send</button>
+  </form>
+</div>
 
 
 
@@ -159,6 +157,7 @@
 <div class="horizontal-divider"></div>
 </body>
 </html>
+
 
 
 
