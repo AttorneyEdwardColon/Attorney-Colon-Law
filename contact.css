@@ -180,7 +180,7 @@ body {
 /* CONTACT FORM */
 .contact-form {
   position: fixed;
-  bottom: 200px;
+  bottom: 190px;
   left: 10px;
   width: 300px;
   padding: 10px;
@@ -279,6 +279,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
