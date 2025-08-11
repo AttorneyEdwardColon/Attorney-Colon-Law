@@ -209,7 +209,7 @@ body {
 .contact-form input,
 .contact-form textarea {
   display: block;
-  width: 100%;
+  width: 95%;
   padding: 4px 5px;
   margin-bottom: 10px;
   background: rgba(47, 25, 15, 0.9);
@@ -308,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
