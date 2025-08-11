@@ -182,8 +182,8 @@ body {
   position: fixed;
   bottom: 180px;
   left: 10px;
-  width: 240px;
-  padding: 8px 10px;
+  width: 260px;
+  padding: 10px 12px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
   border-radius: 10px;
@@ -308,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
