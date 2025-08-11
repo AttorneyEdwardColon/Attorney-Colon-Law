@@ -183,7 +183,7 @@ body {
   bottom: 180px;
   left: 10px;
   width: 240px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
   border-radius: 10px;
@@ -195,7 +195,7 @@ body {
   z-index: 999;
    display: flex;
   flex-direction: column;
-  gap: 10px; /* Adds spacing between fields */
+  gap: 6px; /* Adds spacing between fields */
 }
 
 .contact-form label {
@@ -210,7 +210,7 @@ body {
 .contact-form textarea {
   display: block;
   width: 100%;
-  padding: 6px 8px;
+  padding: 5px 6px;
   margin-bottom: 14px;
   background: rgba(47, 25, 15, 0.9);
   border: 1px solid #CD7F32;
@@ -221,7 +221,7 @@ body {
 }
 
 .contact-form textarea {
-  height: 50px;
+  height: 40px;
   resize: vertical;
 }
 
@@ -308,6 +308,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 
 
