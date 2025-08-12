@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 100px; /* Adjust based on how tall your fixed elements are */
+  padding-bottom: 0;
 }
 
 /* HEADER, LOGO, NAVIGATION */
@@ -342,6 +342,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
