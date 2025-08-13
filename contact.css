@@ -184,12 +184,13 @@ body {
   box-shadow: 0 0 12px rgba(160, 82, 45, 0.4);
 }
 
-/* CONTACT FORM */
-.contact-form {
-  position: fixed;
-  bottom: 160px; 
-  left: 10px;
-  width: 260px;
+/* CONTACT FORM */.contact-form {
+  position: relative; /* Removes fixed positioning */
+  bottom: auto;
+  left: auto;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 400px;
   padding: 14px 16px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -199,11 +200,12 @@ body {
     0 0 15px rgba(0, 0, 0, 0.4);
   color: #FFD700;
   font-weight: bold;
-  z-index: 999;
-   display: flex;
+  z-index: 1;
+  display: flex;
   flex-direction: column;
-  gap: 6px; /* Adds spacing between fields */
+  gap: 6px;
 }
+
 
 .contact-form label {
   display: block;
@@ -294,33 +296,27 @@ body {
 
 /* MAP CIRCLE */
 .map-circle {
-  position: absolute;
-  top: 240px;
-  right: 10px;
+  position: relative; /* Changed from absolute */
+  top: auto;
+  right: auto;
   width: 100%;
-  height: 400px;
+  max-width: 800px;
+  height: auto;
   border-radius: 12px;
-  background: linear-gradient(
-    to bottom,
-    rgba(47, 25, 15, 1),
-    rgba(59, 31, 20, 0.9),
-    rgba(31, 18, 10, 0.8),
-    rgba(38, 22, 13, 0.7)
-  );
-  border: 2px solid #CD7F32;
-  box-shadow:
-    0 0 0 4px rgba(184, 115, 51, 0.3),
-    0 0 20px rgba(0, 0, 0, 0.4);
+  background: none; /* Removes gradient */
+  border: none; /* Optional: remove bronze border */
+  box-shadow: none; /* Optional: remove shadow */
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  margin: 2rem auto;
+  z-index: 1;
   overflow: hidden;
 }
 
 .map-circle iframe {
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  height: 400px;
   border: none;
   border-radius: 12px;
 }
@@ -359,6 +355,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
