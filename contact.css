@@ -179,7 +179,7 @@ quote-block {
 /* CONTACT FORM */
 .contact-form {
   position: fixed;
-  bottom: 200px; 
+  bottom: 160px; 
   left: 10px;
   width: 260px;
   padding: 14px 16px;
@@ -343,6 +343,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
