@@ -179,7 +179,7 @@ quote-block {
 /* CONTACT FORM */
 .contact-form {
   position: fixed;
-   bottom: 360px; /* Moved higher from 220px */
+   bottom: 280px; /* Moved higher from 220px */
   left: 10px;
   width: 260px;
   padding: 14px 16px;
@@ -278,7 +278,7 @@ quote-block {
 /* MAP CIRCLE */
 .map-circle {
   position: fixed;
-  bottom: 340px; /* Moved higher from 200px */
+  bottom: 280px; /* Moved higher from 200px */
   right: 10px;
   width: 420px;
   height: 420px;
@@ -342,6 +342,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
