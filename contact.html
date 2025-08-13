@@ -99,22 +99,21 @@
     height="100%"
     style="border:0;"
     allowfullscreen=""
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-></iframe>
+    loading="lazy">
+</iframe>
 </div>
-
 
 <form id="contact-form" class="contact-form" action="https://formspree.io/f/manbvwpo" method="POST">
 
+  <form class="contact-form">
   <label for="name">Your Name:</label>
-  <input type="text" name="name" id="name" required autocomplete="name">
+  <input type="text" name="name" id="name" required>
 
   <label for="email">Your Email:</label>
-  <input type="email" name="email" id="email" required autocomplete="email">
+  <input type="email" name="email" id="email" required>
 
   <label for="phone">Phone Number:</label>
-  <input type="tel" name="phone" id="phone" autocomplete="tel">
+  <input type="tel" name="phone" id="phone" required>
 
   <label for="message">Your Message:</label>
   <textarea name="message" id="message" required></textarea>
@@ -125,6 +124,7 @@
 
   <button type="submit" aria-label="Send your message">Send</button>
 </form>
+ </div>
 
 <div id="thank-you" style="display:none;" class="thank-you-message">
   ✅ Message sent successfully. We appreciate your trust—expect a thoughtful response soon.
@@ -171,6 +171,7 @@
 <div class="horizontal-divider"></div>
 </body>
 </html>
+
 
 
 
