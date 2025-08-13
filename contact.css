@@ -184,12 +184,13 @@ body {
   box-shadow: 0 0 12px rgba(160, 82, 45, 0.4);
 }
 
+/* CONTACT FORM */
 .contact-form {
-  flex: 1; /* allows it to share space with the map */
+  flex: 1; /* share space with the map */
   min-width: 300px;
   max-width: 400px;
   margin: 0;
-  position: static; /* removes the absolute offset that was breaking layout */
+  position: static; /* natural flow in layout */
   padding: 14px 16px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -203,7 +204,6 @@ body {
   flex-direction: column;
   gap: 6px;
 }
-
 
 .contact-form label {
   display: block;
@@ -263,12 +263,13 @@ body {
 .fade-in {
   animation: fadeInUp 0.8s ease-out; 
 }
+
 .thank-you-message {
   margin-top: 20px;
   padding: 15px;
-  border: 2px solid #CD7F32; /* Bronze */
-  background-color: #fff8dc; /* Light gold background */
-  color: #8B0000; /* Deep red text */
+  border: 2px solid #CD7F32;
+  background-color: #fff8dc;
+  color: #8B0000;
   font-weight: bold;
   font-size: 16px;
   border-radius: 6px;
@@ -282,24 +283,17 @@ body {
   }
 }
 
-
-/* MAP CIRCLE */
+/* MAP BLOCK */
 .map-circle {
-  position: relative; /* Changed from absolute */
-  top: auto;
-  right: auto;
-  width: 100%;
+  flex: 1; /* share space with form */
+  min-width: 300px;
   max-width: 800px;
   height: auto;
   border-radius: 12px;
-  background: none; /* Removes gradient */
-  border: none; /* Optional: remove bronze border */
-  box-shadow: none; /* Optional: remove shadow */
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 2rem auto;
-  z-index: 1;
   overflow: hidden;
 }
 
@@ -309,6 +303,7 @@ body {
   border: none;
   border-radius: 12px;
 }
+
 
 /* FOOTER */
 .footer {
@@ -344,6 +339,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
