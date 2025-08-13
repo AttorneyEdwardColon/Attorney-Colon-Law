@@ -293,19 +293,24 @@ body {
 /* MAP STYLING */
 .map-circle {
   flex: 0 0 45%;
-  min-width: 200px;
-  max-width: 300px;
-  aspect-ration: 1 / 1;
+  min-width: 280px;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 4px solid #FFD700
+  border: 4px solid #FFD700;
   box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
   overflow: hidden;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .map-circle iframe {
   width: 100%;
   height: 100%;
   border: none;
+  border-radius: 0; /* Keep square inside the circle */
 }
 
 
@@ -343,6 +348,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
