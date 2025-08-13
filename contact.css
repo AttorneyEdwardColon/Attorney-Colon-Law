@@ -184,13 +184,20 @@ body {
   box-shadow: 0 0 12px rgba(160, 82, 45, 0.4);
 }
 
+/* WRAPPER FOR MAP + FORM */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap; /* so they stack on small screens */
+  gap: 20px;
+  align-items: flex-start;
+}
+
 /* CONTACT FORM */
 .contact-form {
   flex: 1; /* share space with the map */
   min-width: 300px;
   max-width: 400px;
   margin: 0;
-  position: static; /* natural flow in layout */
   padding: 14px 16px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -283,17 +290,12 @@ body {
   }
 }
 
-/* MAP BLOCK */
+/* MAP STYLING */
 .map-circle {
   flex: 1; /* share space with form */
   min-width: 300px;
   max-width: 800px;
-  height: auto;
   border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem auto;
   overflow: hidden;
 }
 
@@ -339,6 +341,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
