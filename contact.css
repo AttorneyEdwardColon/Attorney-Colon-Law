@@ -22,6 +22,7 @@ body {
   padding: 1rem 2rem;
   background: linear-gradient(to bottom, rgba(80, 50, 20, 0.7), rgba(80, 50, 20, 0.3));
   z-index: 1;
+  text-align: center;
 }
 
 .logo {
@@ -278,7 +279,7 @@ quote-block {
 /* MAP CIRCLE */
 .map-circle {
   position: fixed;
-  bottom: 160px; 
+  bottom: 60px; 
   right: 10px;
   width: 420px;
   height: 420px;
@@ -342,6 +343,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
