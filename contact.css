@@ -284,15 +284,6 @@ body {
   }
 }
 
-.map-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem auto;
-  width: 100%;
-  max-width: 800px;
-  padding: 1rem;
-}
 
 /* MAP CIRCLE */
 .map-circle {
@@ -355,6 +346,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
