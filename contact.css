@@ -185,12 +185,11 @@ body {
 }
 
 .contact-form {
-  position: relative;
-  bottom: 160px; /* ✅ Remove the upward push */
-  left: auto;
-  margin: 2rem auto; /* ✅ Adds spacing and centers it */
-  width: 100%;
+  flex: 1; /* allows it to share space with the map */
+  min-width: 300px;
   max-width: 400px;
+  margin: 0;
+  position: static; /* removes the absolute offset that was breaking layout */
   padding: 14px 16px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -200,7 +199,6 @@ body {
     0 0 15px rgba(0, 0, 0, 0.4);
   color: #FFD700;
   font-weight: bold;
-  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -307,7 +305,7 @@ body {
 
 .map-circle iframe {
   width: 100%;
-  height: 400px;
+  height: 100%;
   border: none;
   border-radius: 12px;
 }
@@ -346,6 +344,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
