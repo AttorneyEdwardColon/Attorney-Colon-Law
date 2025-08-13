@@ -113,7 +113,7 @@ body {
 .contact-section {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   padding: 0 20px;
   align-items: flex-start;
   justify-content: center;
@@ -123,7 +123,7 @@ body {
 .contact-form {
   flex: 0 0 340px;
   min-height: 380px;
-  margin-left: 12px;   /* spacing from map */
+  margin-left: 20px;   /* spacing from map */
   margin-right: 20px;  /* pushes form off right edge */
   padding: 20px 18px;
   background: rgba(47, 25, 15, 0.9);
@@ -225,7 +225,7 @@ body {
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
   overflow: hidden;
   margin-left: 20px;  /* pushes map off left edge */
-  margin-right: 12px; /* spacing from form */
+  margin-right: 20px; /* spacing from form */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -233,7 +233,7 @@ body {
 .map-circle iframe {
   width: 100%;
   height: 100%;
-  transform: scale(1.08);
+  transform: scale(1.00);
   border: none;
 }
 
@@ -324,7 +324,7 @@ body {
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   border-top: 2px solid #CD7F32;
-  margin-top: 30px; /* optional: reduce space above footer */
+  margin-top: 10px; /* optional: reduce space above footer */
 }
 
 .footer a {
@@ -345,6 +345,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
