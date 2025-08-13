@@ -290,9 +290,9 @@ body {
 
 /* MAP STYLING */
 .map-circle {
-  flex: 0 0 75%;
-  min-width: 259px;
-  max-width: 600px;
+  flex: 0 0 45%;
+  min-width: 200px;
+  max-width: 400px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -340,6 +340,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
