@@ -278,7 +278,7 @@ quote-block {
 /* MAP CIRCLE */
 .map-circle {
   position: absolute;
-  top: 60px;
+  top: 160px;
   bottom: 180px; 
   right: 10px;
   width: 420px;
@@ -343,6 +343,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
