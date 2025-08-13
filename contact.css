@@ -34,7 +34,7 @@ body {
   height: 40px;
   line-height: 40px;
 }
-quote-block {
+.quote-block {
   text-align: center;
   margin-top: 1rem;
   padding-right: 2rem;
@@ -346,6 +346,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
