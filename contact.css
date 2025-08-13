@@ -184,11 +184,11 @@ body {
   box-shadow: 0 0 12px rgba(160, 82, 45, 0.4);
 }
 
-/* CONTACT FORM */.contact-form {
-  position: relative; /* Removes fixed positioning */
-  bottom: auto;
+.contact-form {
+  position: relative;
+  bottom: 160px; /* ✅ Remove the upward push */
   left: auto;
-  margin: 2rem auto;
+  margin: 2rem auto; /* ✅ Adds spacing and centers it */
   width: 100%;
   max-width: 400px;
   padding: 14px 16px;
@@ -355,6 +355,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
