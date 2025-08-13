@@ -292,7 +292,7 @@ body {
 .map-circle {
   flex: 0 0 45%;
   min-width: 200px;
-  max-width: 400px;
+  max-width: 300px;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -340,6 +340,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
