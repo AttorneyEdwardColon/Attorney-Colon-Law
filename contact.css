@@ -274,6 +274,10 @@ quote-block {
   }
 }
 
+.map-wrapper {
+  position: relative;
+  margin-top: 6rem; /* Adjust as needed */
+}
 
 /* MAP CIRCLE */
 .map-circle {
@@ -342,6 +346,7 @@ quote-block {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
