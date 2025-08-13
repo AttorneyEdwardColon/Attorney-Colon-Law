@@ -121,10 +121,10 @@ body {
 
 /* CONTACT FORM */
 .contact-form {
-  flex: 0 0 340px; /* narrower form */
-  min-height: 380px; /* taller form */
-  margin-left: auto;
-  margin-right: 12px;
+  flex: 0 0 340px;
+  min-height: 380px;
+  margin-left: 12px;   /* spacing from map */
+  margin-right: 20px;  /* pushes form off right edge */
   padding: 20px 18px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -139,6 +139,7 @@ body {
   justify-content: space-between;
   gap: 6px;
 }
+
 .contact-form label {
   font-size: 13px;
   color: #FFD700;
@@ -220,20 +221,20 @@ body {
   flex: 0 0 360px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 14px solid #FFD700;
+  border: 12px solid #FFD700;
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
   overflow: hidden;
+  margin-left: 20px;  /* pushes map off left edge */
+  margin-right: 12px; /* spacing from form */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 12px;
-  margin-left: 12px;
 }
 .map-circle iframe {
   width: 100%;
   height: 100%;
-  border: none;
   transform: scale(1.08);
+  border: none;
 }
 
 /* CONTACT SECTION */
@@ -315,7 +316,7 @@ body {
 .footer {
   position: relative;
   width: 100%;
-  padding: 18px 20px;
+  padding: 12px 20px; /* reduced top/bottom padding */
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   text-align: center;
@@ -323,6 +324,7 @@ body {
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   border-top: 2px solid #CD7F32;
+  margin-top: 30px; /* optional: reduce space above footer */
 }
 
 .footer a {
@@ -343,6 +345,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
