@@ -122,10 +122,10 @@ body {
 /* CONTACT FORM */
 .contact-form {
   flex: 0 0 340px;
-  min-height: 380px;
-  margin-left: 20px;   /* spacing from map */
-  margin-right: 20px;  /* pushes form off right edge */
-  padding: 20px 18px;
+  min-height: 300px;
+  margin-left: 25px;   /* spacing from map */
+  margin-right: 25px;  /* pushes form off right edge */
+  padding: 16px 14px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
   border-radius: 10px;
@@ -218,14 +218,14 @@ body {
 
 /* MAP STYLING */
 .map-circle {
-  flex: 0 0 360px;
+  flex: 0 0 300px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  border: 12px solid #FFD700;
+  border: 10px solid #FFD700;
   box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
   overflow: hidden;
-  margin-left: 20px;  /* pushes map off left edge */
-  margin-right: 20px; /* spacing from form */
+  margin-left: 25px;  /* pushes map off left edge */
+  margin-right: 25px; /* spacing from form */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -298,13 +298,15 @@ body {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8), 1px 1px 4px rgba(0, 0, 0, 0.6);
   color: #fff !important;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   width: 15%;
   letter-spacing: 0.5px;
-  padding: 20px;
+  padding: 12px 14px;
   text-decoration: none;
   border-radius: 6px;
   transition: background 0.1s ease;
+  margin-top: -12px;
+  display: inline-block
 }
 
 .directions-btn:hover {
@@ -360,6 +362,7 @@ body {
   font-size: 1.1rem;
   vertical-align: middle;
 }
+
 
 
 
