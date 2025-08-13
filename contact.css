@@ -190,7 +190,9 @@ body {
   flex-wrap: wrap; /* so they stack on small screens */
   gap: 20px;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 
 /* CONTACT FORM */
@@ -293,16 +295,17 @@ body {
   flex: 0 0 45%;
   min-width: 200px;
   max-width: 300px;
-  border-radius: 12px;
+  aspect-ration: 1 / 1;
+  border-radius: 50%;
+  border: 4px solid #FFD700
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
   overflow: hidden;
 }
 
 .map-circle iframe {
   width: 100%;
   height: 100%;
-  min-height: 350px;
   border: none;
-  border-radius: 12px;
 }
 
 
@@ -340,6 +343,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
