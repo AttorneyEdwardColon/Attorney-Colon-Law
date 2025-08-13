@@ -113,9 +113,8 @@ body {
 .contact-section {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;
   padding: 0 20px;
-  align-items: flex-start;
   justify-content: center;
 }
 
@@ -313,6 +312,14 @@ body {
 }
 
 /* FOOTER */
+.footer::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #CD7F32;
+  margin-bottom: 12px;
+}
+
 .footer {
   position: relative;
   width: 100%;
@@ -345,6 +352,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.4;
 }
+
 
 
 
