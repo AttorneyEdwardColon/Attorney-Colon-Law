@@ -116,7 +116,7 @@ body {
   gap: 40px;
   padding: 0 20px;
   justify-content: center;
-  margin-bottom: 1px;
+  margin-bottom: 20px;
 }
 
 /* CONTACT FORM */
@@ -353,6 +353,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
