@@ -281,14 +281,6 @@ body {
   color: #FFD700;
 }
 
-.monogram {
-  width: 90px;
-  height: auto;
-  margin: 0;
-  border-radius: 6px;
-  filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
-}
-
 /* FOOTER */
 .footer {
   position: relative;
@@ -362,6 +354,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
