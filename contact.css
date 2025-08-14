@@ -294,22 +294,6 @@ body {
   margin-top: auto;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.page-wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -369,6 +353,7 @@ main {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
