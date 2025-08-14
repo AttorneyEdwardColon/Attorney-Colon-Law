@@ -285,7 +285,7 @@ body {
 .footer {
   position: relative;
   width: 100%;
-  padding: 12px 20px;
+  padding: 0;
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   font-size: 0.95rem;
@@ -354,6 +354,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
