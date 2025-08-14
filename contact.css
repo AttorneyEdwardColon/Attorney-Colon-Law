@@ -123,8 +123,8 @@ body {
 .contact-form {
   flex: 0 0 300px;
   min-height: 300px;
-  margin-left: 35px;   /* spacing from map */
-  margin-right: 10px;  /* pushes form off right edge */
+  margin-left: 15%;   /* spacing from map */
+  margin-right: 0px;  /* pushes form off right edge */
   padding: 16px 14px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -354,6 +354,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
