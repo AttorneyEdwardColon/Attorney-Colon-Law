@@ -121,10 +121,10 @@ body {
 
 /* CONTACT FORM */
 .contact-form {
-  flex: 0 0 340px;
+  flex: 0 0 300px;
   min-height: 300px;
-  margin-left: 25px;   /* spacing from map */
-  margin-right: 25px;  /* pushes form off right edge */
+  margin-left: 35px;   /* spacing from map */
+  margin-right: 15px;  /* pushes form off right edge */
   padding: 16px 14px;
   background: rgba(47, 25, 15, 0.9);
   border: 2px solid #CD7F32;
@@ -308,7 +308,7 @@ body {
   display: block;
   height: 1px;
   background: #CD7F32;
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 .footer-content {
@@ -370,6 +370,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
