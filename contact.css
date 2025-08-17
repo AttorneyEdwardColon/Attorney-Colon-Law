@@ -310,22 +310,21 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* ← key fix */
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   padding: 0 20px;
   flex-wrap: nowrap;
 }
-
 
 /* Monogram or logo */
 .footer-monogram {
   width: 100px;
   height: auto;
   border-radius: 6px;
-  margin-left: 10px;
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
+
 
 .footer-contact {
   display: flex;
@@ -341,11 +340,10 @@ body {
   color: #fff !important;
   font-weight: bold;
   font-size: 0.95rem;
-  padding: 10px 8px;
-  width: 100px;
-  height: auto;
+  padding: 16px 12px; /* taller */
+  width: 80px;         /* narrower */
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.4;
   white-space: normal;
   text-decoration: none;
   border-radius: 6px;
@@ -355,6 +353,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 
 /* Hover effect */
@@ -373,6 +372,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
