@@ -281,6 +281,7 @@ body {
   font-weight: bold;
   color: #FFD700;
 }
+
 /* FOOTER */
 .footer {
   width: 100vw;
@@ -293,8 +294,11 @@ body {
   font-weight: 500;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
   border-top: 2px solid #CD7F32;
-  border-bottom: 2px solid #CD7F32; /* Second border */
-  box-shadow: 0 -12px 24px rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid #CD7F32;
+  box-shadow:
+    0 -6px 12px rgba(0, 0, 0, 0.5),
+    inset 0 2px 0 #8B5C2D,
+    inset 0 -2px 0 #8B5C2D; /* Double border illusion */
   padding: 16px 40px;
   margin-top: 40px;
 }
@@ -310,7 +314,7 @@ body {
 
 /* Monogram or logo */
 .footer-monogram {
-  width: 80px;
+  width: 100px; /* Slightly larger */
   height: auto;
   border-radius: 6px;
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
@@ -345,7 +349,8 @@ body {
   transition: background 0.2s ease;
   text-align: center;
   align-self: center;
-  margin-top: -6px; /* Slight upward nudge */
+  margin-top: -6px;
+  flex-shrink: 0;
 }
 
 /* Hover effect */
@@ -364,7 +369,6 @@ body {
 .footer a:hover {
   color: #800020;
 }
-
 
 
 
