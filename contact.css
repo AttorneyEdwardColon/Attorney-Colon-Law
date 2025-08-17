@@ -283,6 +283,7 @@ body {
 }
 
 /* FOOTER */
+/* Footer container with double border and depth */
 .footer {
   width: 100vw;
   position: relative;
@@ -305,12 +306,12 @@ body {
   margin-top: 40px;
 }
 
-/* Layout container */
+/* Layout container: left (monogram), center (contact), right (button) */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between; /* ← key fix */
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   padding: 0 20px;
@@ -325,23 +326,26 @@ body {
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
-
+/* Contact info centered */
 .footer-contact {
   display: flex;
   gap: 20px;
   align-items: center;
   font-size: 0.95rem;
   white-space: nowrap;
+  justify-content: center;
+  flex: 1;
 }
 
+/* “Get Directions” button: taller and vertical */
 .directions-btn {
   background: linear-gradient(to right, #4A1F0F, #8B5C2D);
   box-shadow: 0 0 12px rgba(139, 92, 45, 0.4);
   color: #fff !important;
   font-weight: bold;
   font-size: 0.95rem;
-  padding: 16px 12px; /* taller */
-  width: 80px;         /* narrower */
+  padding: 18px 10px;
+  width: 80px;
   text-align: center;
   line-height: 1.4;
   white-space: normal;
@@ -353,8 +357,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-
 
 /* Hover effect */
 .directions-btn:hover {
@@ -372,8 +374,6 @@ body {
 .footer a:hover {
   color: #800020;
 }
-
-
 
 
 
