@@ -283,8 +283,10 @@ body {
 }
 
 /* FOOTER */
-.footer {
-  width: 100%;
+/* Full-width footer wrapper */
+.full-width-footer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   border-top: 2px solid #CD7F32;
   border-bottom: 2px solid #CD7F32;
