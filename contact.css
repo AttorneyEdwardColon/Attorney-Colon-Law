@@ -282,12 +282,6 @@ body {
   color: #FFD700;
 }
 
-.horizontal-divider {
-  height: 1px;
-  background-color: #CD7F32;
-  margin: 30px 0;
-}
-
 /* FOOTER */
 .footer {
   width: 100vw;
@@ -363,6 +357,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
