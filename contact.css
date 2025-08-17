@@ -290,7 +290,7 @@ body {
 
 /* FOOTER */
 .footer {
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   font-size: 0.95rem;
@@ -300,6 +300,8 @@ body {
   margin-top: 60px;
   margin-bottom: 0;
   padding-bottom: 0;
+  position: relative;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.4); /* Top shadow */
 }
 
 .footer-content {
@@ -361,6 +363,7 @@ body {
   gap: 30px;
   line-height: 1.6;
 }
+
 
 
 
