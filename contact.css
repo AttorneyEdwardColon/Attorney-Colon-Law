@@ -299,19 +299,21 @@ body {
     0 -6px 12px rgba(0, 0, 0, 0.5),
     inset 0 2px 0 #8B5C2D,
     inset 0 -2px 0 #8B5C2D;
-  padding: 16px 40px;
+  padding: 20px;
   margin-top: 40px;
 }
 
 /* Layout container */
 .footer-content {
-  max-width: 1200px;
+  max-width: 500px;
   margin: 0 auto;
+  text-align: center;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
+
 
 /* Monogram or logo */
 .footer-monogram {
@@ -320,20 +322,27 @@ body {
   border-radius: 6px;
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
   flex-shrink: 0;
+  margin-bottom: 8px;
 }
 
 /* Contact info in one horizontal line */
 .footer-contact {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 30px;
-  flex: 1;
+  gap: 6px;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
 }
+.footer-contact::after {
+  content: "";
+  display: block;
+  width: 60%;
+  margin: 12px auto;
+  border-top: 1px solid #CD7F32;
+  opacity: 0.5;
+}
+
 
 /* Directions button */
 .directions-btn {
@@ -355,7 +364,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -6px;
+  margin-top: 8px;
 }
 
 /* Hover effect */
@@ -390,6 +399,7 @@ html, body {
 .contact-section {
   flex: 1;
 }
+
 
 
 
