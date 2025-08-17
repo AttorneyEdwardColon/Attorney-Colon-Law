@@ -374,6 +374,22 @@ body {
   color: #800020;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section {
+  flex: 1;
+}
+
 
 
 
