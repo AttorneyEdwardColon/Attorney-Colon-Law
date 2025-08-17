@@ -308,11 +308,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 /* Monogram or logo */
@@ -324,24 +324,14 @@ body {
   margin-bottom: 8px;
 }
 
-/* Contact info stacked vertically */
 .footer-contact {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 6px;
-  white-space: normal;
-}
-
-
-/* Optional divider line */
-.footer-contact::after {
-  content: "";
-  display: block;
-  width: 60%;
-  margin: 12px auto;
-  border-top: 1px solid #CD7F32;
-  opacity: 0.5;
+  gap: 30px;
+  white-space: nowrap;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }
 
 /* Button wrapper to align right */
@@ -386,6 +376,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
