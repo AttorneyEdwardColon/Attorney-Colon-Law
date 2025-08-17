@@ -305,12 +305,14 @@ body {
 
 /* Layout container */
 .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
   gap: 20px;
 }
+
 
 /* Monogram or logo */
 .footer-monogram {
@@ -389,6 +391,7 @@ html, body {
 .contact-section {
   flex: 1;
 }
+
 
 
 
