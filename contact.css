@@ -405,7 +405,7 @@ body {
 
   /* Quote block refinement */
   .quote-block {
-    max-width: 90%;
+    max-width: 70%;
     margin: 0 auto;
     padding: 0 12px;
     line-height: 1.3;
@@ -424,6 +424,7 @@ body {
     margin-bottom: 6px;
   }
 }
+
 
 
 
