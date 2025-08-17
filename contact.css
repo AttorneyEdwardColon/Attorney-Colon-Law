@@ -284,9 +284,10 @@ body {
 
 /* FOOTER */
 .footer {
-  width: 100%;
-  margin: 0;
+  width: 100vw; /* Full viewport width */
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   font-size: 0.95rem;
@@ -302,7 +303,6 @@ body {
   margin-top: 40px;
 }
 
-
 /* Layout container */
 .footer-content {
   max-width: 1200px;
@@ -312,7 +312,6 @@ body {
   align-items: center;
   gap: 20px;
 }
-
 
 /* Monogram or logo */
 .footer-monogram {
@@ -391,6 +390,7 @@ html, body {
 .contact-section {
   flex: 1;
 }
+
 
 
 
