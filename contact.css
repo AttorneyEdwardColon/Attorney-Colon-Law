@@ -284,7 +284,7 @@ body {
 
 /* FOOTER */
 .footer {
-  width: 100vw; /* Full viewport width */
+  width: 100vw;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -307,13 +307,12 @@ body {
 .footer-content {
   max-width: 500px;
   margin: 0 auto;
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+  text-align: center;
 }
-
 
 /* Monogram or logo */
 .footer-monogram {
@@ -321,19 +320,19 @@ body {
   height: auto;
   border-radius: 6px;
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
-  flex-shrink: 0;
   margin-bottom: 8px;
 }
 
-/* Contact info in one horizontal line */
+/* Contact info stacked vertically */
 .footer-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  text-align: center;
   white-space: normal;
 }
+
+/* Optional divider line */
 .footer-contact::after {
   content: "";
   display: block;
@@ -343,6 +342,12 @@ body {
   opacity: 0.5;
 }
 
+/* Button wrapper to align right */
+.footer-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* Directions button */
 .directions-btn {
@@ -352,19 +357,15 @@ body {
   font-weight: bold;
   font-size: 1rem;
   width: 140px;
-  height: 48px; /* Taller button */
+  height: 48px;
   letter-spacing: 0.5px;
   padding: 12px 16px;
   text-decoration: none;
   border-radius: 6px;
   transition: background 0.2s ease;
-  text-align: center;
-  align-self: center;
-  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
 }
 
 /* Hover effect */
@@ -384,21 +385,6 @@ body {
   color: #800020;
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.page-wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-section {
-  flex: 1;
-}
 
 
 
