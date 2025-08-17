@@ -287,7 +287,7 @@ body {
 .footer {
   width: 100vw;
   position: relative;
-  left: 50%;
+  left: 50.5%;
   transform: translateX(-50%);
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
@@ -374,6 +374,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
