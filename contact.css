@@ -284,10 +284,10 @@ body {
 
 /* FOOTER */
 .footer {
-  width: 100vw;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   font-size: 0.95rem;
@@ -373,6 +373,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
