@@ -283,10 +283,9 @@ body {
 }
 
 /* FOOTER */
+/* Full-width footer wrapper */
 .footer {
   width: 100%;
-  max-width: 1200px;
-  margin: 40px auto 0 auto;
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
   font-size: 0.95rem;
@@ -300,10 +299,11 @@ body {
     inset 0 -2px 0 #8B5C2D,
     0 2px 0 #FFD700,
     0 -2px 0 #FFD700;
-  padding: 20px;
+  padding: 20px 0; /* vertical padding only */
+  margin-top: 40px;
 }
 
-/* Layout container: left (monogram), center (contact), right (button) */
+/* Inner layout container */
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -311,7 +311,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 0 40px 0 60px; /* ← pushes everything right */
+  padding: 0 40px 0 60px;
   flex-wrap: nowrap;
 }
 
@@ -371,6 +371,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
