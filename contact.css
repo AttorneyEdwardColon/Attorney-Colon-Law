@@ -310,15 +310,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  flex-wrap: nowrap; /* prevent vertical stacking */
+  gap: 40px;
+  padding: 0 20px; /* adds horizontal breathing room */
+  flex-wrap: nowrap;
 }
 
 /* Monogram or logo */
 .footer-monogram {
-  width: 80px;
+  width: 100px; /* increased from 80px */
   height: auto;
   border-radius: 6px;
+  margin-left: 10px; /* pushes it inward */
   filter: brightness(0.85) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
@@ -330,21 +332,22 @@ body {
   white-space: nowrap;
 }
 
-/* Directions button */
 .directions-btn {
   background: linear-gradient(to right, #4A1F0F, #8B5C2D);
   box-shadow: 0 0 12px rgba(139, 92, 45, 0.4);
   color: #fff !important;
   font-weight: bold;
-  font-size: 1rem;
-  padding: 12px 16px;
+  font-size: 0.95rem;
+  padding: 10px 14px; /* reduced from 12px 16px */
+  width: auto; /* removes fixed width */
+  max-width: 140px;
   text-decoration: none;
   border-radius: 6px;
   transition: background 0.2s ease;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 48px;
+  height: 44px;
   white-space: nowrap;
 }
 
@@ -364,6 +367,7 @@ body {
 .footer a:hover {
   color: #800020;
 }
+
 
 
 
