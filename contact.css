@@ -377,6 +377,7 @@ body {
 
 
 @media (max-width: 768px) {
+  /* Footer layout */
   .footer-content {
     flex-direction: column;
     align-items: center;
@@ -402,7 +403,26 @@ body {
     padding: 14px 12px;
     font-size: 1rem;
   }
+
+  /* Header quote refinement */
+  .header-quote {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 0 12px;
+    line-height: 1.3;
+  }
+
+  .quote-block {
+    margin-top: 0.5rem;
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
 }
+
 
 
 
