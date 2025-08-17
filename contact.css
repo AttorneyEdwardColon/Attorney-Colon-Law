@@ -285,8 +285,7 @@ body {
 /* FOOTER */
 .footer {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   background: linear-gradient(to bottom, #2F190F, #3B1F14);
   color: #FFD700;
@@ -302,6 +301,7 @@ body {
   padding: 16px 40px;
   margin-top: 40px;
 }
+
 
 /* Layout container */
 .footer-content {
@@ -389,6 +389,7 @@ html, body {
 .contact-section {
   flex: 1;
 }
+
 
 
 
