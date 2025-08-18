@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /contact
+Disallow: /contact.html
+Disallow: /about.html
+Disallow: /practice.html
