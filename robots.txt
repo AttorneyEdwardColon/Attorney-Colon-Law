@@ -1,2 +1,2 @@
-User-age: *
-Disallow: /
+User-agent: *
+Disallow: /contact
