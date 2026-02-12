@@ -287,11 +287,6 @@ html, body {
   margin: 0;
 }
 
-.main-background{
-  background: url("your-image.jpg") center / cover no-repeat;
-  min-height: 100vh;
-}
-
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
@@ -394,6 +389,7 @@ html, body {
   }
 
 }
+
 
 
 
