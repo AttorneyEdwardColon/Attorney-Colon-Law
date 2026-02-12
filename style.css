@@ -303,8 +303,8 @@ body {
 @media screen and (max-width: 768px) {
 
   body {
-    background-size: contain;
-    background-position: top center;
+    background-size: cover;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: scroll; /* prevents zoom/jump issues on phones */
   }
@@ -401,6 +401,7 @@ body {
   }
 }
 }
+
 
 
 
