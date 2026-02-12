@@ -300,19 +300,22 @@ body {
 }
 
 html, body {
-  height: 100%;
+  padding: 0;
   margin: 0;
 }
+
+.main-background{
+  background: url("your-image.jpg") center / cover no-repeat;
+  min-height: 100vh;
+}
+
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
-  body {
-    min-height: 100vh;
-    min-height: 100dvh;
-    background-size: cover;
+  .main-background {
+    min-height: 100dvh; /* fixes mobile browser height issue */
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll; /* prevents zoom/jump issues on phones */
+    background-size: cover;
   }
 
   /* HEADER */
@@ -378,10 +381,12 @@ html, body {
   .testimonial-container {
     align-items: center;
     padding: 1rem 0.5rem;
+    background: transparent; /* IMPORTANT */
   }
 
   .carousel {
     width: 100%;
+    background: transparent; /* IMPORTANT */
   }
 
   /* FOOTER */
@@ -401,11 +406,10 @@ html, body {
     white-space: normal;
   }
 
-  @media screen and (max-width: 768px) {
   .footer-monogram {
     width: 100px;
   }
-}
+
 }
 
 
