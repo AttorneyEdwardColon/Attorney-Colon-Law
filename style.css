@@ -299,11 +299,18 @@ body {
   box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
   body {
+    min-height: 100vh;
+    min-height: 100dvh;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll; /* prevents zoom/jump issues on phones */
   }
@@ -400,6 +407,7 @@ body {
   }
 }
 }
+
 
 
 
