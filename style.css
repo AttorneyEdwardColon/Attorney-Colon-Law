@@ -248,9 +248,9 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
 }
 
 .footer-left img.footer-monogram {
-  width: auto !important;
-  height: 60px !imporant;
-  max-width: 100%;
+  width: 80px !important;
+  height: none !imporant;
+  max-width: 80px !important;
 }
 
 .footer-center {
@@ -396,6 +396,7 @@ html, body {
   }
 
 }
+
 
 
 
