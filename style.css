@@ -255,7 +255,7 @@ body {
 }
 
 .footer-monogram {
-  width: 120px;   /* slightly smaller = cleaner look */
+  width: 180px;   /* slightly smaller = cleaner look */
   height: auto;
   max-height: 70px;
 }
@@ -483,6 +483,7 @@ html, body {
   }
 
 }
+
 
 
 
