@@ -266,10 +266,10 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
 }
 
 .footer-right .footer-button {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #FFD700;
   background: linear-gradient(to right, #cd7f32, transparent);
-  padding: 0.35rem 0.9rem;
+  padding: 0.42rem 1rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -396,6 +396,7 @@ html, body {
   }
 
 }
+
 
 
 
