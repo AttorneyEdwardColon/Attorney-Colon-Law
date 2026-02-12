@@ -231,12 +231,23 @@ body {
   background: linear-gradient(to bottom, rgba(255, 215, 0, 0.6), rgba(150, 111, 51, 0.4));
 }
 
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.main-background{
+  background: url("your-image.jpg") center / cover no-repeat;
+  min-height: 100vh;
+}
+
 /* FOOTER */
 .site-footer {
   background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 0));
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;   /* slightly reduced */
   margin: 0 auto;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .footer-content {
@@ -244,37 +255,37 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0.5rem 1rem;
-  gap: 1rem;
+  padding: 0.25rem 1rem;  /* reduced */
+  gap: 0.75rem;
 }
 
-/* Monogram image */
+/* Monogram */
 .footer-left {
   display: flex;
   align-items: center;
 }
 
 .footer-monogram {
-  width: 90px;
+  width: 90px;   /* slightly smaller = cleaner look */
   height: auto;
 }
 
-/* Quote in center */
+/* Center Quote */
 .footer-center {
   flex-grow: 1;
   text-align: center;
 }
 
 .footer-quote {
-  font-size: 1.75rem;
+  font-size: 1.4rem;  /* smaller = fixes height */
   color: #FFD700;
   text-shadow: 1px 1px 2px #800020;
   margin: 0;
-  padding: 0.25rem 0;
-  white-space: nowrap;
+  line-height: 1.2;   /* tighter vertical spacing */
+  white-space: normal;  /* allow wrapping if needed */
 }
 
-/* Consultation button */
+/* Button */
 .footer-right {
   display: flex;
   align-items: center;
@@ -282,10 +293,10 @@ body {
 }
 
 .footer-button {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #FFD700;
   background: linear-gradient(to right, #cd7f32, transparent);
-  padding: 0.4rem 1rem;
+  padding: 0.35rem 0.9rem;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
@@ -297,16 +308,6 @@ body {
 .footer-button:hover {
   background-color: rgba(255, 215, 0, 0.15);
   box-shadow: 0 0 8px rgba(255, 215, 0, 0.4);
-}
-
-html, body {
-  padding: 0;
-  margin: 0;
-}
-
-.main-background{
-  background: url("your-image.jpg") center / cover no-repeat;
-  min-height: 100vh;
 }
 
 /* MOBILE FIXES */
@@ -411,6 +412,7 @@ html, body {
   }
 
 }
+
 
 
 
