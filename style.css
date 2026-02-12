@@ -8,7 +8,7 @@ body {
   /* Full-screen background */
   background-image: url('hero-bg.jpg');
   background-size: cover;
-  background-position: left-center;
+  background-position: left center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* desktop parallax effect */
 }
@@ -394,6 +394,7 @@ html, body {
   }
 
 }
+
 
 
 
