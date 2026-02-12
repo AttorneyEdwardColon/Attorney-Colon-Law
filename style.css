@@ -250,8 +250,7 @@ body {
 
 /* Monogram */
 .footer-left {
-  display: flex;
-  align-items: center;
+  display: 0 0 auto;
 }
 
 .footer-monogram {
@@ -483,6 +482,7 @@ html, body {
   }
 
 }
+
 
 
 
