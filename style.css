@@ -290,6 +290,13 @@ html, body {
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
+  body {
+    background-image: url('hero-bg.jpg') !important;
+    background-attachment: scroll !important;
+    background-position: center !important;
+    background-size: cover !important;
+
+  }
   .main-background {
     min-height: 100dvh; /* fixes mobile browser height issue */
     background-position: center;
@@ -389,6 +396,7 @@ html, body {
   }
 
 }
+
 
 
 
