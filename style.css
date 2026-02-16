@@ -302,10 +302,14 @@ html, body {
     background-size: cover !important;
 
   }
+
   .main-background {
-    min-height: 100dvh; /* fixes mobile browser height issue */
-    background-position: center;
-    background-size: cover;
+    background-image: url('hero-bg.jpg') !important;
+    background-size: contain !important;     /* shows whole image */
+    background-position: center !important;  /* keeps it centered */
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    min-height: 100dvh;                      /* full screen height */
   }
 
   /* HEADER */
@@ -347,7 +351,10 @@ html, body {
   }
 
   #hero .container {
-    align-items: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
   }
 
   #hero .container h2 {
@@ -360,10 +367,17 @@ html, body {
     /* soft burgundy glow */ 
     padding: 0.35rem 0.6rem; 
     border-radius: 4px; display: inline-block;
-    max-width: 100%;
-    text-align: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
     font-size: 0.95rem;
     font-weight: 700;
+    text-shadow:
+  -1px -1px 0 #000,
+    1px -1px 0 #000,
+  -1px  1px 0 #000,
+    1px  1px 0 #000;
   }
 
   /* TESTIMONIAL DIVIDER */
@@ -406,6 +420,7 @@ html, body {
   }
 
 }
+
 
 
 
