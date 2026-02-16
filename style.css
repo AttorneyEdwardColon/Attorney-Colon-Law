@@ -303,15 +303,6 @@ html, body {
 
   }
 
-  .main-background {
-    background-image: url('hero-bg.jpg') !important;
-    background-size: contain !important;     /* shows whole image */
-    background-position: center !important;  /* keeps it centered */
-    background-repeat: no-repeat !important;
-    background-attachment: scroll !important;
-    min-height: 100dvh;                      /* full screen height */
-  }
-
   /* HEADER */
   .header-container {
     flex-direction: column;
