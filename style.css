@@ -122,7 +122,8 @@ body {
 
 #hero .container p {
   background: rgba(128, 0, 32, 0.25); /* soft burgundy glow */ 
-  padding: 0.35rem 0.6rem; border-radius: 4px; display: inline-block;
+  padding: 0.35rem 0.6rem; 
+  border-radius: 4px; display: inline-block;
   max-width: 500px;
   font-size: 1rem;
   color: #f0f0f0;
@@ -238,7 +239,8 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
    FOOTER
 ============================ */
 .site-footer {
-  background: linear-gradient(to top, rgba(205,127,50,0.4), rgba(205,127,50,0));
+  background: linear-gradient(to top, rgba(205,127,50,0.4), 
+  rgba(205,127,50,0));
   padding: 0.75rem 1.5rem;
   opacity: 0.9;
 }
@@ -252,7 +254,7 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
 
 .footer-left img.footer-monogram {
  max-width: 130px !important;
- height: 60px !imporant;
+ height: 60px !important;
  width: 100%;
 }
 
@@ -356,7 +358,8 @@ html, body {
   #hero .container p {
     background: rgba(128, 0, 32, 0.25); 
     /* soft burgundy glow */ 
-    padding: 0.35rem 0.6rem; border-radius: 4px; display: inline-block;
+    padding: 0.35rem 0.6rem; 
+    border-radius: 4px; display: inline-block;
     max-width: 100%;
     text-align: center;
     font-size: 0.95rem;
@@ -403,6 +406,7 @@ html, body {
   }
 
 }
+
 
 
 
