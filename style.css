@@ -121,6 +121,8 @@ body {
 }
 
 #hero .container p {
+  background: rgba(128, 0, 32, 0.25); /* soft burgundy glow */ 
+  padding: 0.35rem 0.6rem; border-radius: 4px; display: inline-block;
   max-width: 500px;
   font-size: 1rem;
   color: #f0f0f0;
@@ -351,6 +353,9 @@ html, body {
   }
 
   #hero .container p {
+    background: rgba(128, 0, 32, 0.25); 
+    /* soft burgundy glow */ 
+    padding: 0.35rem 0.6rem; border-radius: 4px; display: inline-block;
     max-width: 100%;
     text-align: center;
     font-size: 0.95rem;
@@ -396,6 +401,7 @@ html, body {
   }
 
 }
+
 
 
 
