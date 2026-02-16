@@ -295,13 +295,16 @@ html, body {
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
-  body {
-    background-image: url('hero-bg.jpg') !important;
-    background-attachment: scroll !important;
-    background-position: center !important;
-    background-size: cover !important;
+   body {
+  background-image: url('hero-bg.jpg') !important;
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 
-  }
+  /* 👇 CONTROL WHAT PART SHOWS */
+  background-position: 60% 40% !important;
+}
+
 
   /* HEADER */
   .header-container {
@@ -411,6 +414,7 @@ html, body {
   }
 
 }
+
 
 
 
