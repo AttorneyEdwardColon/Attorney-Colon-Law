@@ -381,16 +381,18 @@ html, body {
   }
 
   /* TESTIMONIALS */
-  .testimonial-container {
-    align-items: center;
-    padding: 1rem 0.5rem;
-    background: transparent; /* IMPORTANT */
-  }
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0.75rem;
+}
 
-  .carousel {
-    width: 100%;
-    background: transparent; /* IMPORTANT */
-  }
+.carousel {
+  width: 92%;
+  max-width: 500px;   /* keeps it elegant */
+  margin: 0 auto;
+  border-radius: 12px;
+}
 
   /* FOOTER */
   .footer-content {
@@ -414,6 +416,7 @@ html, body {
   }
 
 }
+
 
 
 
