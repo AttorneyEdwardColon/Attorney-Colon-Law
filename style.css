@@ -388,10 +388,10 @@ html, body {
 }
 
 .carousel {
-  width: 92%;
-  max-width: 500px;   /* keeps it elegant */
+  width: 90%;
+  max-width: 400px;   /* keeps it elegant */
   margin: 0 auto;
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
   /* FOOTER */
@@ -416,6 +416,7 @@ html, body {
   }
 
 }
+
 
 
 
