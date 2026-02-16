@@ -295,7 +295,7 @@ html, body {
 /* MOBILE FIXES */
 @media screen and (max-width: 768px) {
 
-   body {
+  body {
   background-image: url('hero-bg.jpg') !important;
   background-attachment: scroll !important;
   background-size: cover !important;
@@ -414,6 +414,7 @@ html, body {
   }
 
 }
+
 
 
 
