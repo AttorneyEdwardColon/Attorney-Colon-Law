@@ -302,7 +302,7 @@ html, body {
   background-repeat: no-repeat !important;
 
   /* 👇 CONTROL WHAT PART SHOWS */
-  background-position: 60% 40% !important;
+  background-position: 35% center !important;
 }
 
 
@@ -414,6 +414,7 @@ html, body {
   }
 
 }
+
 
 
 
