@@ -376,6 +376,7 @@ body {
 }
 
 @media (max-width: 768px) {
+ /* Force header to stop flexing (Safari fix) */
   header {
     display: block !important;
   }
@@ -399,7 +400,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: -14px; /* nudge left for Android + iPhone */
+    margin-left: -18px; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
@@ -412,7 +413,7 @@ body {
   /* Row 2: Quote centered with spacing */
   .quote-block {
     width: 100%;
-    margin-top: 24px;
+    margin-top: 36px;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -453,6 +454,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
