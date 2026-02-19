@@ -397,9 +397,10 @@ body {
   }
 
   .nav-wrapper {
-    width: 60%;
+    width: 48%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin-left: 0; /* nudge left for Android + iPhone */
   }
 
@@ -454,6 +455,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
