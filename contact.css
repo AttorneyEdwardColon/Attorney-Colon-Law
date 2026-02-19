@@ -400,7 +400,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: -22px; /* nudge left for Android + iPhone */
+    margin-left: -20px; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
@@ -413,7 +413,7 @@ body {
   /* Row 2: Quote centered with spacing */
   .quote-block {
     width: 100%;
-    margin-top: 42px;
+    margin-top: 44px;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -454,6 +454,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
