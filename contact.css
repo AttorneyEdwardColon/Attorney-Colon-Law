@@ -376,37 +376,48 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* Fix header stacking */
+  /* Row 1: Logo left, nav right */
   .header-container{
   display: flex; 
   flex-direction: row; 
   justify-content: space-between; 
   align-items: center; 
   width: 100%;
+  padding: 0 10px;
   }
 
   .logo {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
   }
 
   .nav-wrapper {
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding-left: 20px;
+    align-items: center;
+    padding-left: 10px;
   }
 
   .nav-links {
+    display: flex;
     flex-direction: row;
-    align-items: flex-start;
     gap: 10px;
-    margin-top: 10px;
+    margin: 0;
   }
 
+  /* Row 2: Quote centered with spacing */
+  .quote-block {
+    width: 100%;
+    margin-top: 16px;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
   .header-quote {
     font-size: 1.2rem;
     padding: 0;
-    margin-top: 0;
+    margin: 0;
     word-break: break-word;
   }
 
@@ -436,15 +447,8 @@ body {
     padding: 14px 12px;
     font-size: 1rem;
   }
-
-  .quote-block {
-    max-width: 100%;
-    margin-top: 12px;
-    padding: 0 10px;
-    display: block;
-    text-align: center;
-  }
 }
+
 
 
 
