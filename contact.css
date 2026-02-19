@@ -377,7 +377,7 @@ body {
 
 @media (max-width: 768px) {
   /* Row 1: Logo left, nav right */
-  .header-container{
+  .header-container {
   display: flex; 
   flex-direction: row; 
   justify-content: space-between; 
@@ -396,20 +396,22 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 0;
+    margin-left: -6px; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 12px;
     margin: 0;
   }
 
   /* Row 2: Quote centered with spacing */
   .quote-block {
+    display: block;
     width: 100%;
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 0 20px;
     text-align: center;
   }
@@ -448,6 +450,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
