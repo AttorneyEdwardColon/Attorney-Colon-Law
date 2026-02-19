@@ -383,10 +383,9 @@ body {
   
   /* Row 1: Logo left, nav right */
   .header-container {
-  display: flex; 
-  flex-direction: row; 
-  justify-content: space-between; 
-  align-items: center; 
+  display: grid; 
+  grid-template-columns: auto 1fr; /* logo | nav */
+  align-items: center;
   width: 100%;
   padding: 0 14px;
   }
@@ -397,7 +396,7 @@ body {
   }
 
   .nav-wrapper {
-    width: 48%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -407,8 +406,9 @@ body {
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    justify-content: flex-end;
+    gap: 6px;
+    flex-wrap: nowrap;
+    margin: 0;
   }
 
   /* Row 2: Quote centered with spacing */
@@ -455,6 +455,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
