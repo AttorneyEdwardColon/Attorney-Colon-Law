@@ -376,8 +376,8 @@ body {
 }
 
 @media (max-width: 768px) {
-  header{
-    display: block;
+  header {
+    display: block !important;
   }
   
   /* Row 1: Logo left, nav right */
@@ -399,7 +399,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: -10px; /* nudge left for Android + iPhone */
+    margin-left: -14px; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
@@ -415,6 +415,8 @@ body {
     margin-top: 24px;
     display: block;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .header-quote {
@@ -451,6 +453,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
