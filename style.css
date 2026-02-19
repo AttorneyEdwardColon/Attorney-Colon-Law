@@ -250,7 +250,14 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}  
+}
+
+/* NEW: equal spacing for all three sections */
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
 
 .footer-left {
   display: flex;
@@ -276,6 +283,12 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
   text-shadow: 1px 1px 2px #800020;
   margin: 0;
   line-height: 1.25;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .footer-right .footer-button {
@@ -426,6 +439,7 @@ html, body {
   }
 
 }
+
 
 
 
