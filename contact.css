@@ -376,6 +376,41 @@ body {
 }
 
 @media (max-width: 768px) {
+
+  /* Fix header stacking */
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-quote {
+    font-size: 1.2rem;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+    word-break: break-word;
+  }
+
   /* Footer layout */
   .footer-content {
     flex-direction: column;
@@ -403,36 +438,13 @@ body {
     font-size: 1rem;
   }
 
-  /* Quote block refinement */
   .quote-block {
     max-width: 70%;
     margin: 0 auto;
     padding: 0 12px;
     line-height: 1.4;
   }
-
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-  
-  .header-quote {
-    font-size: 1.2rem;
-    padding: 0 10px;
-    margin-top: 0.5rem;
-    word-break: break-word;
-  }
-
-  .logo {
-    font-size: 1rem;
-    margin-bottom: 6px;
-  }
 }
-
-
-
-
 
 
 
