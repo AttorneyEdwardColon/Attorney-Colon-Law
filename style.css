@@ -250,15 +250,19 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-}
-
+}  
 .footer-left img.footer-monogram {
   width: 180px !important;   /* controls size */
   height: 70px !important;   /* prevents stretching */
   object-fit: cover;
   object-position: center;
   display: block;
+  flex-shrink: 0; /* NEW: stops Chrome/Safari from stretching */
 }
+
+.footer-left {
+  display: flex;
+  align-items: center; /* keeps it vertically centered */
 
 .footer-center {
   text-align: center;
@@ -420,6 +424,7 @@ html, body {
   }
 
 }
+
 
 
 
