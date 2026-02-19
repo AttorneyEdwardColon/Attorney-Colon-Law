@@ -6,7 +6,7 @@ body {
   padding: 0;
 
   /* Full-screen background */
-  background-image: url('practice-bg.jpg');
+  background-image: url('hero-bg.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -317,7 +317,7 @@ html, body {
 @media screen and (max-width: 768px) {
 
   body {
-  background-image: url('practice-bg.jpg') !important;
+  background-image: url('hero-bg.jpg') !important;
   background-attachment: scroll !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -439,6 +439,7 @@ html, body {
   }
 
 }
+
 
 
 
