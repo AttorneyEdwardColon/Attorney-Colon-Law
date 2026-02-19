@@ -397,17 +397,17 @@ body {
   }
 
   .nav-wrapper {
+    width: 60%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: -14px; /* nudge left for Android + iPhone */
+    justify-content: flex-end;
+    margin-left: 0; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 12px;
-    margin: 0;
+    gap: 10px;
+    justify-content: flex-end;
   }
 
   /* Row 2: Quote centered with spacing */
@@ -454,6 +454,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
