@@ -376,6 +376,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  header{
+    display: block;
+  }
+  
   /* Row 1: Logo left, nav right */
   .header-container {
   display: flex; 
@@ -389,15 +393,13 @@ body {
   .logo {
     margin: 0;
     padding: 0;
-    font-size: 1rem;
   }
 
   .nav-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 0;
-    margin-left: -6px; /* nudge left for Android + iPhone */
+    margin-left: -10px; /* nudge left for Android + iPhone */
   }
 
   .nav-links {
@@ -409,10 +411,9 @@ body {
 
   /* Row 2: Quote centered with spacing */
   .quote-block {
-    display: block;
     width: 100%;
-    margin-top: 20px;
-    padding: 0 20px;
+    margin-top: 24px;
+    display: block;
     text-align: center;
   }
   
@@ -450,6 +451,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
