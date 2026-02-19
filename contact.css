@@ -379,27 +379,28 @@ body {
  /* Force header to stop flexing (Safari fix) */
   header {
     display: block !important;
+    width: 100%;
   }
   
   /* Row 1: Logo left, nav right */
   .header-container {
-  display: grid; 
-  grid-template-columns: auto 1fr; /* logo | nav */
-  align-items: center;
+  display: block; 
   width: 100%;
+  text-align: left;
   padding: 0 14px;
   }
 
   .logo {
     margin: 0;
     padding: 0;
+    display: block;
   }
 
   .nav-wrapper {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
   }
 
   .nav-links {
@@ -413,8 +414,8 @@ body {
   /* Row 2: Quote centered with spacing */
   .quote-block {
     width: 100%;
-    margin-top: 60px;
-    display: block;
+    margin-top: 32px;
+    padding: 0 20px;
     text-align: center;
   }
   
@@ -452,6 +453,7 @@ body {
     font-size: 1rem;
   }
 }
+
 
 
 
