@@ -255,7 +255,8 @@ background: linear-gradient(to top, rgba(205, 127, 50, 0.4), rgba(205, 127, 50, 
 .footer-left {
   display: flex;
   align-items: center; /* keeps it vertically centered */
-  
+}
+
 .footer-left img.footer-monogram {
   width: 180px !important;   /* controls size */
   height: 70px !important;   /* prevents stretching */
@@ -425,6 +426,7 @@ html, body {
   }
 
 }
+
 
 
 
