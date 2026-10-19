@@ -1,0 +1,417 @@
+/* ===== GENERAL ===== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    color: white;
+
+    background-image: url("./resource-img.png");
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* HEADER, LOGO, NAVIGATION */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+
+    background: linear-gradient(to bottom,
+            rgba(80, 50, 20, 0.7),
+            rgba(80, 50, 20, 0.3));
+
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFD700;
+
+    margin-right: 2rem;
+    margin-top: -6px;
+
+    height: 40px;
+    line-height: 40px;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .75);
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin-top: 1rem;
+}
+
+.quote-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+
+    gap: 0.3rem;
+
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+
+    line-height: 40px;
+
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #800020;
+}
+
+.nav-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+
+    color: #FFD700;
+
+    position: relative;
+    top: -1px;
+    left: 1.5px;
+}
+
+.header-quote {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    color: #fff;
+
+    text-shadow: 2px 2px 4px #000;
+
+    margin-top: -1rem;
+}
+
+.hero-divider {
+    height: 2px;
+    width: 40%;
+
+    margin: 1rem auto 2rem;
+
+    background: linear-gradient(to right,
+            #800020,
+            #FFD700,
+            #800020);
+
+    background-size: 200% auto;
+
+    animation: shimmer 5s linear infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+#hero {
+    text-align: center;
+    padding: 1rem 20px 2rem;
+    margin-top: -10px;
+}
+
+#hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero h2 {
+    color: #FFD700;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 1.15;
+
+    margin: 0 0 1rem;
+
+    text-shadow:
+        2px 2px 5px rgba(0, 0, 0, .8),
+        0 0 15px rgba(255, 215, 0, .20);
+}
+
+#hero p {
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    color: #ffffff;
+
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    text-shadow:
+        2px 2px 4px rgba(0, 0, 0, .8);
+}
+
+/* Remove if you delete the scale emoji */
+.hero-icon {
+    display: none;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    #hero {
+        padding: 1rem 15px 2rem;
+    }
+
+    #hero h2 {
+        font-size: 2.5rem;
+        line-height: 1.15;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+}
+
+/* =========================
+   RESOURCE HUB
+========================= */
+
+.resources-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resource-hub {
+    margin-bottom: 4rem;
+}
+
+.resource-hub-title {
+    text-align: center;
+    color: #FFD700;
+    font-size: 2.25rem;
+    margin-bottom: 3rem;
+    text-shadow:
+        2px 2px 5px rgba(0, 0, 0, .8);
+}
+
+/* =========================
+   RESOURCE GRID
+========================= */
+
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+/* =========================
+   RESOURCE CARDS
+========================= */
+
+.resource-card {
+    background: rgba(0, 0, 0, 0.78);
+    padding: 1.5rem;
+    border-left: 4px solid #FFD700;
+    border-radius: 10px;
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, .35);
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, .45);
+}
+
+.resource-card h3 {
+    color: #FFD700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.resource-card p {
+    color: #A11D3A;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+}
+
+/* =========================
+   RESOURCE LINKS
+========================= */
+
+.resource-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resource-list li {
+    margin-bottom: .75rem;
+    padding-bottom: .75rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .12);
+}
+
+.resource-list li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.resource-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .3s ease;
+}
+
+.resource-list a::before {
+    content: "→ ";
+    color: #FFD700;
+}
+
+.resource-list a:hover {
+    color: #FFD700;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-hub-title {
+        font-size: 1.8rem;
+    }
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+
+.resource-cta {
+    background: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 4rem 0;
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+
+.resource-cta {
+    background: rgba(0, 0, 0, 0.82);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 10px;
+    margin: 4rem 0;
+}
+
+.resource-cta h2 {
+    color: #FFD700;
+    margin-top: 0;
+}
+
+.resource-cta p {
+    max-width: 800px;
+    margin: 1rem auto 2rem;
+
+    line-height: 1.8;
+}
+
+.cta-button {
+    display: inline-block;
+
+    background: #800020;
+    color: #FFD700;
+
+    padding: 12px 24px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.cta-button:hover {
+    background: #FFD700;
+    color: #800020;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-hub-title {
+        font-size: 1.8rem;
+    }
+
+    .resource-card {
+        padding: 1.25rem;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* ===== FOOTER =====
